@@ -5,7 +5,7 @@ import urllib.request
 from html.parser import HTMLParser
 from urllib.parse import urlparse
 
-from vk.utils import split_key_value
+from .utils import split_key_value
 
 
 def get_access_token(email, password, app_id, scope):
